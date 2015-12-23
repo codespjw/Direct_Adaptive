@@ -1,8 +1,9 @@
 # ignore files from git
 
+# negelect the folder in git
+**/Figures/
 # all figures and pdfs are negelected
-.fig
-.pdf
 
 # all temp files
 .asv
+
