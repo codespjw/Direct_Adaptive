@@ -416,7 +416,7 @@ xlim([t1(1),t1(end)]);
 tmp1 = min(x1); tmp1 = tmp1 * (1-sign(tmp1)*0.1);
 tmp2 = max(x1); tmp2 = tmp2 * (1+sign(tmp2)*0.1);
 tmp3 = max(-tmp1,tmp2);
-ylim(tmp3*[-1 1])
+% ylim(tmp3*[-1 1])
 saveImgPdf(6,3,['./Figures/epsilon-' num2str(harmCancel(1)),'-',num2str(harmCancel(end)) ]);
 
 
