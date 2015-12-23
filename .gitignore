@@ -1,0 +1,8 @@
+# ignore files from git
+
+# all figures and pdfs are negelected
+.fig
+.pdf
+
+# all temp files
+.asv
