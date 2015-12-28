@@ -29,7 +29,7 @@ for actuators = 1:2
         out = MAIN_Adapt(harm,uffwdPreloaded,actuatorType);
         if (out.terminated == 1)
             fprintf('Problematic harmonic: %i\n',harm(out.maxidx))
-            region{i} = harm(1:ceil(end/2));
+            region{i} = harm(1:floor(end/2));
             if i < numel(region)
                 region{i+1} = [harm(floor(end/2)+1:end) region{i+1}];
             else
