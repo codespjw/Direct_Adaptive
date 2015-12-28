@@ -28,7 +28,8 @@ pargain = 5e-4;
 normTrhLpCoef = 2e-3;
 
 if ~exist('uffwdPreloaded','var')
-    uffwdPreloaded = zeros(period,1);
+    uffwdPreloaded.vcm = zeros(period,1);
+    uffwdPreloaded.ma = zeros(period,1);
 end
 
 %% Set Frequencies
