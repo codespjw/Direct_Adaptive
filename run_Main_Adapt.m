@@ -1,4 +1,6 @@
 clear
+projectPath = pwd;
+addpath(genpath(projectPath));
 rng(0)
 
 

@@ -58,4 +58,4 @@ line(repmat([1,period/2-1],size(m,1),1)',0.5+[1:size(m,1);1:size(m,1)],'color','
 % colormap(hot)
 ylabel('Iteration');
 xlabel('Harmonic');
-saveImgPdf(6,4,'frequency-paritions',1);
+saveImgPdf(6,4,'Figures/frequency-paritions',1);

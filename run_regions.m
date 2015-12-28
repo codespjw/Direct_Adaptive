@@ -1,4 +1,6 @@
 clc;clear;close all;
+projectPath = pwd;
+addpath(genpath(projectPath));
 period = 348;
 uffwdPreloaded.ma = zeros(1,period);
 uffwdPreloaded.vcm = zeros(1,period);
