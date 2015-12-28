@@ -360,7 +360,7 @@ saveImgPdf(6,3,['./Figures/pes-compensated-' num2str(harmCancel(1)),'-',num2str(
 % --------- Estimated A and B coefficients -------------
 figurename('A,B');
 plot(linspace(1,Nt*tscale,size(TA,2)),[-TA' TB'],'linewidth',2);
-hold on
+hold on; grid on;
 for i = 1:size(TA,1)
     legend_str{i} = ['a_',num2str(i)];
 end
